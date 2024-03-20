@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS, Margin, And Padding Features</title>
+<style>
+  /* Header Styling */
+  header {
+    background-color: #3498db;
+    padding: 20px;
+  }
+
+  /* Introduction Section */
+  .introduction {
+    background-color: #2ecc71;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  /* Skills Display */
+  .skills {
+    background-color: #e74c3c;
+    padding: 20px;
+  }
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  .skills li {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Contact Information */
+  .contact {
+    background-color: #f39c12;
+    padding: 20px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header, .introduction, .skills, .contact {
+      padding: 10px;
+    }
+    .skills li {
+      margin-bottom: 5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Robert Mwangi</h1>
+</header>
+
+<section class="introduction">
+  <p>Hi, I'm Robert Mwangi. I'm a web developer with a passion for creating beautiful and functional websites.</p>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+   
+  </ul>
+</section>
+
+<section class="contact">
+  <h2>Contact Information</h2>
+  <p>Email: wanyekirobin@gmail.com</p>
+  <p>Social Media:
+    <a href="#">Twitter</a>,
+    <a href="#">LinkedIn</a>,
+    <a href="#">GitHub</a>
+  </p>
+</section>
+
+</body>
+</html>
